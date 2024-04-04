@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         int[][] matrix;
-        int kStrok = 25;
-        int kStolb = 25;
+        int kStrok = 21;
+        int kStolb = 21;
         matrix = new int[kStrok][kStolb];
         printMatx(matrix);
     }
@@ -15,15 +15,15 @@ public class Main {
             System.out.println();
         }
     }
-}
-
-class Point {
-    int x, y;
-
-    public Point(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public int startPoint(){
+       // int R =matrix[3][3];
+       // return(R);
+        return 0;
     }
-
-
+    public void s()
+    {
+   //     int s=[i++][j];
+    }
 }
+
+/*class Point {    int x, y;    public Point(int x, int y) {        this.x = x;        this.y = y;    }}*/
